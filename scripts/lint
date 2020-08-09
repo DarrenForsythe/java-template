@@ -1,2 +1,2 @@
 #!/bin/bash
-mvn verify -P lint
+mvn validate -P lint

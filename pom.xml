@@ -97,7 +97,7 @@
                         <artifactId>git-code-format-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <phase>verify</phase>
+                                <phase>validate</phase>
                                 <goals>
                                     <goal>format-code</goal>
                                 </goals>
@@ -109,7 +109,7 @@
                         <artifactId>sortpom-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <phase>verify</phase>
+                                <phase>validate</phase>
                                 <goals>
                                     <goal>sort</goal>
                                 </goals>
@@ -129,7 +129,7 @@
                         <executions>
                             <execution>
                                 <id>validate-format</id>
-                                <phase>verify</phase>
+                                <phase>validate</phase>
                                 <goals>
                                     <goal>install-hooks</goal>
                                     <goal>validate-code-format</goal>
@@ -142,7 +142,7 @@
                         <artifactId>sortpom-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <phase>verify</phase>
+                                <phase>validate</phase>
                                 <goals>
                                     <goal>verify</goal>
                                 </goals>
